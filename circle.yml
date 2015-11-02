@@ -1,0 +1,10 @@
+dependencies:
+  post:
+    - npm install
+    - bower install
+  cache_directories:
+    - node_modules
+    - bower_components
+test:
+  post:
+    - ./node_modules/.bin/ember test
