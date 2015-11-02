@@ -8,3 +8,6 @@ dependencies:
 test:
   post:
     - ./node_modules/.bin/ember test
+notify:
+  webhooks:
+    - url: https://plateau.dockbit.com/webhooks/cde81a16e903285235693886e23544f5ff990388
