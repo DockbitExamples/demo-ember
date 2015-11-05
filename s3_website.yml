@@ -3,6 +3,14 @@ s3_secret: <%= ENV['DOCKBIT_S3_SECRET'] %>
 s3_bucket: dockbit-demo-ember
 s3_endpoint: us-west-2
 s3_reduced_redundancy: true
+
+cloudfront_distribution_id: <%= ENV['DOCKBIT_CLOUDFRONT_ID'] %>
+cloudfront_distribution_config:
+  aliases:
+    quantity: 1
+    items:
+      CNAME: demo-ember.dockbit.com
+
 index_document: index.html
 
 gzip:
