@@ -21,3 +21,11 @@ install:
 
 script:
   - npm test
+
+notifications:
+  webhooks:
+    urls:
+      - https://dockbit.com/webhooks/c0fff527c72eecc2f2531e90699b5b0707273ad3
+    on_success: always
+    on_failure: always
+    on_start: never
