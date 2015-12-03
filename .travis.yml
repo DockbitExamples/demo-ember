@@ -25,7 +25,7 @@ script:
 notifications:
   webhooks:
     urls:
-      - https://dockbit.com/webhooks/c0fff527c72eecc2f2531e90699b5b0707273ad3
+      - https://dockbit.com/webhooks/7da053aa924e8feb877d3bb7de540f3f1d1332f7
     on_success: always
     on_failure: always
     on_start: never
