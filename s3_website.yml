@@ -1,10 +1,10 @@
-s3_id: <%= ENV['DOCKBIT_AMAZON_S3_KEY'] %>
-s3_secret: <%= ENV['DOCKBIT_AMAZON_S3_SECRET'] %>
+s3_id: <%= ENV['DOCKBIT_AWS_S3_WEBSITE_KEY'] %>
+s3_secret: <%= ENV['DOCKBIT_AWS_S3_WEBSITE_SECRET'] %>
 s3_bucket: dockbit-demo-ember
 s3_endpoint: us-west-2
 s3_reduced_redundancy: true
 
-cloudfront_distribution_id: <%= ENV['DOCKBIT_AMAZON_S3_CLOUDFRONT_ID'] %>
+cloudfront_distribution_id: <%= ENV['DOCKBIT_AWS_S3_WEBSITE_CLOUDFRONT_ID'] %>
 cloudfront_distribution_config:
   aliases:
     quantity: 1
